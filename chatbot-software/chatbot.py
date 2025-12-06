@@ -9,7 +9,7 @@ import requests
 import json
 import urllib3
 
-# Disable SSL warnings for localhost
+# Disable SSL warnings for self-signed certificates
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Backend server URL
@@ -28,7 +28,7 @@ def get_response(user_input):
         response = requests.post(
             f"{SERVER_URL}/chat",
             json={"message": user_input},
-            verify=False,  # Disable SSL verification for localhost
+            verify=False,  # Disable SSL verification for self-signed certificates
             timeout=5
         )
         
