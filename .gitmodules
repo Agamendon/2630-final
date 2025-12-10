@@ -1,3 +1,6 @@
 [submodule "llm-malware-poc"]
 	path = llm-malware-poc
 	url = https://github.com/jeqcho/llm-malware-poc.git
+[submodule "avf"]
+	path = avf
+	url = https://github.com/Agamendon/avf
