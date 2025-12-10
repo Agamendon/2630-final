@@ -1,0 +1,3 @@
+[submodule "llm-malware-poc"]
+	path = llm-malware-poc
+	url = https://github.com/jeqcho/llm-malware-poc.git
