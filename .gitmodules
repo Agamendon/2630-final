@@ -4,3 +4,6 @@
 [submodule "avf"]
 	path = avf
 	url = https://github.com/Agamendon/avf
+[submodule "llm-orchestrated-malware-defense"]
+	path = llm-orchestrated-malware-defense
+	url = https://github.com/enriquedlh97/llm-orchestrated-malware-defense
